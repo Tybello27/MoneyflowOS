@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+@theme {
+  --color-navy-950: #0a1628;
+  --color-navy-900: #0f1f35;
+  --color-navy-800: #162a45;
+  --color-navy-700: #1e3a5f;
+  --color-navy-600: #2a4a73;
+  --color-gold-400: #d4af37;
+  --color-gold-500: #c9a227;
+  --color-gold-600: #b8860b;
+  --color-gold-300: #e4c766;
+  --color-cream-50: #fdfcfa;
+  --color-cream-100: #f9f6f1;
+  --color-cream-200: #f3ede4;
+  --color-cream-300: #e8dfd2;
+  --color-charcoal-900: #1a1a1a;
+  --color-charcoal-800: #2d2d2d;
+  --color-charcoal-700: #3d3d3d;
+  --color-charcoal-600: #525252;
+  --color-charcoal-500: #6b6b6b;
+  --color-charcoal-400: #8a8a8a;
+  --color-border-light: #ebe7e0;
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-display: "Fraunces", Georgia, "Times New Roman", serif;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    background-color: var(--color-cream-50);
+    color: var(--color-charcoal-800);
+    font-family: var(--font-sans);
+  }
+
+  ::selection {
+    background-color: color-mix(in oklab, var(--color-gold-400) 30%, transparent);
+    color: var(--color-navy-900);
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .text-gradient-gold {
+    background: linear-gradient(135deg, var(--color-gold-400), var(--color-gold-600));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .bg-noise {
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.03'/%3E%3C/svg%3E");
+  }
+
+  .animate-marquee {
+    animation: marquee 45s linear infinite;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .animate-marquee {
+      animation: none;
+    }
+  }
+}
