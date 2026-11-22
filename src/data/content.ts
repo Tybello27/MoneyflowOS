@@ -1,7 +1,7 @@
 export const product = {
   name: "MoneyFlow OS™",
-  tagline: "The Complete Personal Finance Operating System™",
-  price: 29,
+  tagline: "Automatic Budget & Savings Tracker Bundle",
+  price: 27,
   totalValue: 297,
   currency: "USD",
   checkoutUrl: "https://toyyibah3.gumroad.com/l/moneyflowos",
@@ -25,15 +25,15 @@ export const includedStrip = [
 ];
 
 export const hero = {
-  eyebrow: "The Complete Personal Finance Operating System™",
-  headline: "Stop managing money in pieces.\nStart running it as a system.",
+  eyebrow: "Automatic Budget & Savings Tracker Bundle",
+  headline: "See where your money goes.\nStart saving with a plan.",
   subheadline:
-    "MoneyFlow OS™ is a complete personal finance operating system — budget, expenses, savings, debt, goals, and net worth in one calm, connected system, so you always know where you stand.",
-  primaryCta: "Get MoneyFlow OS™",
+    "MoneyFlow OS™ brings your monthly budget, expense tracker, bills, and savings goals together in an easy-to-use dashboard and workbook. Plan your spending and see your progress without juggling separate tools.",
+  primaryCta: "Get the Budget & Savings Bundle — $27",
   secondaryCta: "See what's inside",
   audienceLine:
-    "Built for students, freelancers, side hustlers, and anyone tired of guessing where their money goes.",
-  badge: "Workbook · Dashboard · 90+ Worksheets",
+    "Made for beginners who want a clearer monthly budget, a place to track expenses, and a simple way to plan savings. One-time purchase.",
+  badge: "Budget Dashboard · Savings Tracker · Workbook",
 };
 
 export const problem = {
@@ -42,7 +42,7 @@ export const problem = {
   paragraphs: [
     "You open your banking app and feel a small jolt of guilt. Another month of transfers you don't remember. Subscriptions you forgot. A balance that never quite matches how hard you worked.",
     "You've tried budgets. Spreadsheets. Apps that nag. Printable planners that looked promising until life got busy and the pages stayed blank.",
-    "The problem isn't discipline. Most finance tools are collections of pages — not operating systems. Without a clear sequence, even the prettiest planner becomes another abandoned download.",
+    "When your budget, spending, bills, and savings goals live in different places, keeping up becomes harder than it needs to be. Putting them together makes monthly check-ins simpler.",
   ],
   points: [
     {
@@ -84,9 +84,9 @@ export const problem = {
 
 export const insideChecklist = {
   eyebrow: "What's inside",
-  headline: "One system. Every tool you need.",
+  headline: "Start with your budget. Keep everything together.",
   subheadline:
-    "The complete MoneyFlow OS™ package — workbook, dashboard, planning systems, and dedicated toolkits, all built around The MoneyFlow Method™.",
+    "Start with the budget dashboard, expense tracker, bill planner, and savings goals. Your $27 purchase also includes the full MoneyFlow OS™ workbook and additional planning tools.",
   items: [
     { label: "127-Page Workbook", detail: "Premium financial workbook" },
     { label: "90+ Guided Worksheets", detail: "Guided financial worksheets" },
@@ -122,7 +122,7 @@ export const transformation = {
 
 export const valueStack = {
   eyebrow: "The full system",
-  headline: "What you receive today",
+  headline: "Your complete budgeting & savings bundle",
   items: [
     { name: "127-Page Premium Financial Workbook", value: 77 },
     { name: "90+ Guided Financial Worksheets", value: 57 },
@@ -131,8 +131,8 @@ export const valueStack = {
     { name: "Student & Couples Finance Toolkits", value: 59 },
   ],
   totalValue: 297,
-  todayPrice: 29,
-  cta: "Get instant access — $29",
+  todayPrice: 27,
+  cta: "Get the complete bundle — $27",
   note: "One-time payment. Lifetime access to your files.",
 };
 
@@ -155,7 +155,7 @@ export const faq = {
     {
       question: "Is this just another budget planner?",
       answer:
-        "No. MoneyFlow OS™ is a complete personal finance operating system. It includes a 127-page premium financial workbook, 90+ guided financial worksheets, the interactive MoneyFlow Dashboard, budget management, expense tracking, savings and debt systems, a financial goal planner, net worth tracker, monthly review system, plus Student and Couples Finance Toolkits — all built around The MoneyFlow Method™.",
+        "It includes a budget dashboard and tools for tracking income, expenses, bills, and savings goals, plus a 127-page workbook, guided worksheets, debt and goal planning, monthly reviews, and Student and Couples Finance Toolkits. Start with the trackers you need most.",
     },
     {
       question: "What format do I receive?",
@@ -170,7 +170,7 @@ export const faq = {
     {
       question: "How is this different from free templates?",
       answer:
-        "Free templates are usually isolated sheets. MoneyFlow OS™ is a sequenced operating system — a 127-page workbook, 90+ worksheets, an interactive dashboard, and dedicated toolkits designed to work as one connected system, not a pile of disconnected files.",
+        "MoneyFlow OS™ combines a budgeting dashboard, expense and savings tracking, a guided workbook, and additional planning tools in one bundle. You can start with the essentials and explore more as you need them.",
     },
     {
       question: "Will this work if my income is irregular?",
@@ -180,7 +180,7 @@ export const faq = {
     {
       question: "Is there a subscription?",
       answer:
-        "No. MoneyFlow OS™ is a one-time purchase of $29. You receive lifetime access to your files with no recurring fees.",
+        "No. MoneyFlow OS™ is a one-time purchase of $27. You receive lifetime access to your files with no recurring fees.",
     },
     {
       question: "What if it doesn't work for me?",
@@ -201,5 +201,5 @@ export const nav = {
     { label: "Pricing", href: "#pricing" },
     { label: "FAQ", href: "#faq" },
   ],
-  cta: "Get the system",
+  cta: "Get the bundle — $27",
 };
